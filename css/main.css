@@ -9,3 +9,131 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+
+/* Custom styles */
+.container {
+  padding: 0 116px;
+  max-width: 1208px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 40px;
+}
+
+.card__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.card {
+  width: 272px;
+  height: 349px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.card__image {
+  position: relative;
+  max-width: 272px;
+  width: 272px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.card__save__btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+}
+
+.card__sale__badge {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 56px;
+  height: 32px;
+  background-color: #ff6633;
+  color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__info {
+  padding: 8px;
+}
+
+.card__info__price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__price__value {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  color: #414141;
+}
+
+.card__price__type {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #bfbfbf;
+}
+
+.card__price__value__default {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #606060;
+}
+
+.card__info__title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  color: #414141;
+  margin: 8px 0;
+}
+
+.card__info__starts {
+  height: 16px;
+  margin-bottom: 8px;
+}
+
+.card__info__btn {
+  width: 256px;
+  height: 40px;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #70c05b;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  cursor: pointer;
+}
+
+/* Sale Section */
+.sale {
+  background-color: #fbf8ec;
+}
+
+.sale__container {
+  padding: 80px 0;
+}
