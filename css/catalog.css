@@ -146,6 +146,9 @@ cursor: pointer;
 mask-repeat: no-repeat;
 
 }
+.Frame{
+    pointer-events: none;
+}
 
 /* Footer */
 .footer__container {
