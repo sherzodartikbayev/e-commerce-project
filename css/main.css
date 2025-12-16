@@ -1,9 +1,20 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+=======
+/* Font Rubik */
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+>>>>>>> c858b2a283d0792f9c89b5b322644762bcfdecb7
 }
 
 body {
@@ -13,6 +24,7 @@ body {
 a {
 	text-decoration: none;
 }
+<<<<<<< HEAD
 
 /* Custom styles */
 .container {
@@ -321,3 +333,5 @@ a {
 	margin-top: 16px;
 	gap: 8px;
 }
+=======
+>>>>>>> c858b2a283d0792f9c89b5b322644762bcfdecb7
