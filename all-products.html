@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-commerce</title>
+  <title>Все продукты</title>
+  <link rel="stylesheet" href="./css/all-products.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="icon" href="./images/logo/logo.svg">
-
 </head>
 
 <body>
@@ -50,14 +50,36 @@
     </div>
   </header>
 
-  <!-- Sale Section -->
-  <section class="sale">
-    <div class="sale__container container">
-      <h3 class="section-title">Акции</h3>
+  <!-- Main -->
+  <main>
+    <section class="hero">
+      <div class="hero__container container">
+        <h1 class="hero__title">Все продукты</h1>
 
-      <div class="card__container"></div>
-    </div>
-  </section>
+        <div class="hero__card__box">
+        </div>
+
+        <div class="hero__bottom">
+          <button class="hero__bottom__btn"> <img src="./icons/feather-icon/2x-left.svg" alt="">
+          </button>
+          <button class="hero__bottom__btn"> <img src="./icons/feather-icon/left.svg" alt="">
+          </button>
+          <p class="hero__num">1</p>
+          <p class="hero__num">2</p>
+          <p class="hero__num">3</p>
+          <p class="hero__num">4</p>
+          <p class="hero__num">5</p>
+          <p class="hero__num">6</p>
+          <p class="hero__num">7</p>
+          <p class="hero__num">8</p>
+          <button class="hero__bottom__btn"> <img src="./icons/feather-icon/right.svg" alt="">
+          </button>
+          <button class="hero__bottom__btn"> <img src="./icons/feather-icon/2x-right.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <!-- Footer -->
   <footer class="footer">
@@ -91,7 +113,7 @@
     </div>
   </footer>
 
-  <script src="./js/script.js"></script>
+  <script src="./js/all-products.js"></script>
 </body>
 
 </html>
