@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', () => {
+
 const products = [
 	{
 		id: 1,
@@ -50,19 +52,25 @@ const products = [
 ]
 
 products.map(product => {
-	const card = document.createElement('div')
-	card.className = 'hero__card'
-	card.innerHTML = `
-    <div class="hero__card__top">
+		const elementDiv = document.createElement('div')
+		elementDiv.classList.add('card')
+		elementDiv.innerHTML = `
+         <div class="hero__card__top">
         <img src="${product.image}" alt="${product.title}" class="hero__card__img">
     </div>
     <div class="hero__card__bottom">
         <p class="hero__card__cost">${product.price}<span class="marked">₽</span></p>
         <p class="hero__card__text">${product.title}</p>
-        <img src="./images/icons/rating2.svg" alt="">
+        <img src="./icons/star.svg" alt="">
+		<img src="./icons/star.svg" alt="">
+		<img src="./icons/star.svg" alt="">
+		<img src="./icons/star.svg" alt="">
+		<img src="./icons/star.svg" alt="">
         <button class="hero__card__btn">В корзину</button>
     </div>
-	`
+    `
 
-	document.querySelector('.hero__card__box').append(card)
+		document.querySelector('.hero__card__box').append(elementDiv)
+	})
+
 })
