@@ -32,7 +32,7 @@ a {
   justify-content: center;
   gap: 40px;
   background: #ffffff;
-  box-shadow: 2px 4px 8px 0px #0000001a;
+  
 }
 
 .header__icons {
@@ -59,7 +59,7 @@ a {
   line-height: 150%;
   letter-spacing: 0%;
   color: white;
-  /* padding: 8px; */
+
   border-radius: 4px;
   background-color: #70c05b;
   border: none;
@@ -94,7 +94,7 @@ a {
 .form__btn {
   border: none;
   background-color: white;
-  /* margin-top: 4px; */
+  
 }
 
 .icon__box {
@@ -108,8 +108,7 @@ a {
   font-size: 12px;
   line-height: 150%;
   letter-spacing: 0%;
-  /* text-align: center;
-  vertical-align: middle; */
+
   margin-top: 8px;
   color: #414141;
 }
@@ -150,9 +149,7 @@ mask-repeat: no-repeat;
 .Frame{
     pointer-events: none;
 }
-.card1{
-  color: #70C05B;
-}
+
 
 /* main */
 .main{
@@ -168,7 +165,9 @@ border: none;
 cursor: pointer;
 gap: 4px;
 margin-top: 20px;
+
 }
+
 .указ{
   background: none;
   border: none;
@@ -180,18 +179,21 @@ margin-top: 20px;
   border: none;
   cursor: pointer;
   gap: 4px;
+color: #8F8F8F;
+&:hover {
+  color: #000;
+}
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(16, 1fr); 
   gap: 14px;
-  align-items: center;
-  justify-content: center;
+
 }
 
 
-.card {
+.card1 {
   grid-column: span 5; 
   height: 170px;
   cursor: pointer;
@@ -203,7 +205,7 @@ margin-top: 20px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #70C05B;
+
   background-image: url(../images/eggs.png);
   display: flex;
   align-items: flex-end;
