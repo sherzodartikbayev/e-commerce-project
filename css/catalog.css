@@ -149,7 +149,325 @@ mask-repeat: no-repeat;
 .Frame{
     pointer-events: none;
 }
+.card1{
+  color: #70C05B;
+}
 
+/* main */
+.main{
+  background-color: #FBF8EC;
+}
+.hb{
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.Главная{
+background: none;
+border: none;
+cursor: pointer;
+gap: 4px;
+margin-top: 20px;
+}
+.указ{
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 10px;
+}
+.Каталог{
+  background: none;
+  border: none;
+  cursor: pointer;
+  gap: 4px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr); 
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card {
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/eggs.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+}
+.card2{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/img@2x.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+}
+.card3{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/ovoshi.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+}
+.card4{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/imgvv.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   grid-column: span 4;
+}
+
+.card5{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/napitki.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   grid-column: span 4;
+}
+
+.card6{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/sladosti.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   grid-column: span 4;
+}
+
+.card7{
+  grid-column: span 5; 
+  width: 262px;
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/cooofee.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   grid-column: span 4;
+   padding-right: 200px;
+}
+.card8{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/bakalea.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   
+}
+.card9{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/pitanie.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+ 
+}
+.card10{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/zoo.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   
+}
+
+.card11{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  background-image: url(../images/detskiy.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+  
+}
+
+.card12{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/kolbasa.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+  
+}
+
+.card13{
+  grid-column: span 5; 
+  height: 170px;
+  cursor: pointer;
+  
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #70C05B;
+  background-image: url(../images/drugie.png);
+  display: flex;
+  align-items: flex-end;
+  padding: 16px;
+  color:white;
+  font-weight: 600;
+   
+}
 /* Footer */
 .footer__container {
   background-image: url("../images/footer\ bg.svg");
