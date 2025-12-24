@@ -21,6 +21,7 @@ a {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
+  padding: 20px;
 }
 
 /* <<HEADER>> */
@@ -321,7 +322,7 @@ color: #8F8F8F;
 
 .card7{
   grid-column: span 5; 
-  width: 262px;
+  width: 245px;
   height: 170px;
   cursor: pointer;
 
